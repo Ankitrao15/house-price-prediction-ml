@@ -2,8 +2,8 @@ import streamlit as st
 import joblib
 import pandas as pd
 
-st.set_page_config(page_title="House Price Prediction", page_icon="🏠")
-st.title("🏠 House Price Prediction using Machine Learning")
+st.set_page_config(page_title="House Price Prediction", page_icon="🏡")
+st.title(" House Price Prediction using Machine Learning")
 st.write("Enter property and area details to estimate the house value.")
 
 model = joblib.load("house_price_model.pkl")
